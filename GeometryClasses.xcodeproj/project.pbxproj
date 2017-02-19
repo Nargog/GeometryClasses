@@ -14,6 +14,7 @@
 		49540F8C1E5A494F00726E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49540F8A1E5A494F00726E6D /* LaunchScreen.storyboard */; };
 		49540F971E5A494F00726E6D /* GeometryClassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49540F961E5A494F00726E6D /* GeometryClassesTests.swift */; };
 		49540FA21E5A495000726E6D /* GeometryClassesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49540FA11E5A495000726E6D /* GeometryClassesUITests.swift */; };
+		49540FB01E5A498F00726E6D /* Geometries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49540FAF1E5A498F00726E6D /* Geometries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		49540F9D1E5A495000726E6D /* GeometryClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryClassesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49540FA11E5A495000726E6D /* GeometryClassesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryClassesUITests.swift; sourceTree = "<group>"; };
 		49540FA31E5A495000726E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49540FAF1E5A498F00726E6D /* Geometries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geometries.swift; path = ../Geometries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		49540F801E5A494F00726E6D /* GeometryClasses */ = {
 			isa = PBXGroup;
 			children = (
+				49540FAF1E5A498F00726E6D /* Geometries.swift */,
 				49540F811E5A494F00726E6D /* AppDelegate.swift */,
 				49540F831E5A494F00726E6D /* ViewController.swift */,
 				49540F851E5A494F00726E6D /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				49540F841E5A494F00726E6D /* ViewController.swift in Sources */,
 				49540F821E5A494F00726E6D /* AppDelegate.swift in Sources */,
+				49540FB01E5A498F00726E6D /* Geometries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
